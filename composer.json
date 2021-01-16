@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/mentor4u",
+  "description": "This is a simple MVC framework",
+  "type": "project",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alexis Sherstnyov",
+      "email": "alftunner@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "framework",
+      "App\\": "app"
+    },
+    "files": [
+      "app/config.php",
+      "app/routes.php"
+    ]
+  }
+}
